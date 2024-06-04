@@ -40,3 +40,12 @@ Processing by StaticpagesController#top as HTML
 Completed 200 OK in 648ms (Views: 647.1ms | ActiveRecord: 0.0ms | Allocations: 147842)
 
 
+Started GET "/" for ::1 at 2024-06-04 22:45:42 +0900
+Processing by StaticpagesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering staticpages/top.html.erb within layouts/application
+  Rendered staticpages/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 27.0ms | Allocations: 21398)
+Completed 200 OK in 29ms (Views: 27.7ms | ActiveRecord: 0.0ms | Allocations: 21644)
+
+
