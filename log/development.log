@@ -1,0 +1,42 @@
+  [1m[35m (0.8ms)[0m  [1m[35mCREATE DATABASE "myapp_development" ENCODING = 'unicode'[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE DATABASE "myapp_test" ENCODING = 'unicode'[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE DATABASE "myapp_development" ENCODING = 'unicode'[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE DATABASE "myapp_test" ENCODING = 'unicode'[0m
+Started GET "/" for ::1 at 2024-06-04 22:38:57 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/kogoro/.rbenv/versions/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/kogoro/.rbenv/versions/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.4ms | Allocations: 375)
+Completed 200 OK in 12ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 7758)
+
+
+Started GET "/" for ::1 at 2024-06-04 22:41:23 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/kogoro/.rbenv/versions/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/kogoro/.rbenv/versions/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.4ms | Allocations: 260)
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 901)
+
+
+Started GET "/" for ::1 at 2024-06-04 22:41:27 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/kogoro/.rbenv/versions/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/kogoro/.rbenv/versions/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 13)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 218)
+
+
+Started GET "/" for ::1 at 2024-06-04 22:41:28 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/kogoro/.rbenv/versions/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/kogoro/.rbenv/versions/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.1.3.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 13)
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 212)
+
+
+Started GET "/" for ::1 at 2024-06-04 22:41:48 +0900
+Processing by StaticpagesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering staticpages/top.html.erb within layouts/application
+  Rendered staticpages/top.html.erb within layouts/application (Duration: 0.2ms | Allocations: 100)
+  Rendered layout layouts/application.html.erb (Duration: 645.8ms | Allocations: 146839)
+Completed 200 OK in 648ms (Views: 647.1ms | ActiveRecord: 0.0ms | Allocations: 147842)
+
+
