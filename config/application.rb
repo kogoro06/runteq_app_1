@@ -8,15 +8,19 @@ Bundler.require(*Rails.groups)
 
 module Myapp
   class Application < Rails::Application
-  
-    # 中略
-	  
-    # ここから下5行を追記
+    # Initialize configuration defaults for originally generated Rails version.
+    config.load_defaults 6.0
+
+    # Set the default locale to Japanese
+    config.i18n.default_locale = :ja
+
+    # Load all locale files including nested ones
+    config.i18n.load_path += Dir[Rails.root.join('config', 'locales', '**', '*.{rb,yml}').to_s]
+
     config.generators do |g|
       g.helper false             # helper ファイルを作成しない
       g.test_framework false     # test ファイルを作成しない
       g.skip_routes true         # ルーティングの記述を作成しない
     end
-	  # ここまで追記
   end
 end

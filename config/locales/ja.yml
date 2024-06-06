@@ -1,0 +1,32 @@
+ja:
+  hello: "こんにちは"
+  devise:
+    sessions:
+      signed_in: 'ログインしました。'
+      signed_out: 'ログアウトしました。'
+      already_signed_out: 'すでにログアウトしています。'
+    registrations:
+      signed_up: 'アカウント登録が完了しました。'
+      updated: 'アカウント情報を更新しました。'
+      destroyed: 'アカウントを削除しました。'
+      update_needs_confirmation: '新しいメールアドレスの確認が必要です。'
+    failure:
+      not_found_in_database: 'メールアドレスまたはパスワードが違います。'
+      already_authenticated: 'すでにログインしています。'
+      unconfirmed: 'メールアドレスの確認が必要です。'
+      unauthenticated: 'ログインしてください。'
+      invalid: 'メールアドレスまたはパスワードが違います。'
+  activerecord:
+    models:
+      user: "ユーザー"
+    attributes:
+      user:
+        email: "メールアドレス"
+        password: "パスワード"
+        password_confirmation: "パスワード確認"
+        remember_me: "ログインを保持する"
+  errors:
+    messages:
+      record_invalid: "バリデーションに失敗しました。"
+      restrict_dependent_destroy:
+        has_many: "%{record}を削除できません。"
