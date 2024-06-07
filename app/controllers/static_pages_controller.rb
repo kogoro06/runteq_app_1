@@ -1,9 +1,15 @@
 class StaticPagesController < ApplicationController
-  def top; end
+  skip_before_action :authenticate_user!, only: %i[top terms privacy contact]
 
-  def terms; end
+  def top
+  end
 
-  def privacy; end
+  def terms
+  end
 
-  def contact; end
+  def privacy
+  end
+
+  def contact
+  end
 end
